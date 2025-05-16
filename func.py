@@ -26,6 +26,7 @@ def bean():
       bool=False;
   wordlist=''.join(wordlist);
   print(wordlist.upper());
+  menu();
 
 def debean():
     print('Please enter the word you want to debeancipher!')
@@ -53,6 +54,7 @@ def debean():
       bool=False;
     wordlist=''.join(wordlist);
     print(wordlist.upper());
+    menu();
 
 def menu():
    print('1 or 2?'); x=input('');
@@ -61,6 +63,8 @@ def menu():
          bean();
    elif(x=='2'):
          debean();
+   elif(x=='3'):
+         exit();
    else:
-         print('Please enter 1 or 2!');
+         print('Please enter 1, 2 or 3!');
          menu();
