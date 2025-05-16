@@ -8,7 +8,7 @@ def bean():
 
   wordlist=list(word);
 
-  alph='abcdefghijklmnopqrstuvwxyz';
+  alph='abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz';
 
   n=0;
   x=0;
