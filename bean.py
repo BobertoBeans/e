@@ -1,8 +1,8 @@
 from func import *
 
 print("          ╔═══════════════════════════╗")
-print("          ║      The Bean Cipher      ║")
-print("          ║      By The Beanster      ║")
+print("          ║      The Beancipherer     ║")
+print("          ║        By The Beanster         ║")
 print("          ╠═══════════════════════════╣")
 print("          ║ 1. Beancipher             ║")
 print("          ║ 2. Debeancipher           ║")
