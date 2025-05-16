@@ -29,14 +29,14 @@ def bean():
   menu();
 
 def debean():
-    print('Please enter the word you want to debeancipher!')
+    print("Please enter the word you want to debeancipher('Z's don't work)!")
     word=input('');
    
     word=word.lower();
 
     wordlist=list(word);
 
-    alph='abcdefghijklmnopqrstuvwxyz';
+    alph='                 abcdefghijklmnopqrstuvwxyz';
 
     n=0;
     x=0;
@@ -57,13 +57,43 @@ def debean():
     menu();
 
 def menu():
-   print('1 or 2?'); x=input('');
+   print('1, 2 or 3?'); x=input('');
 
    if(x=='1'):
          bean();
    elif(x=='2'):
          debean();
    elif(x=='3'):
+         print('                ░░░░░░░░░                    ')
+         print('               ▓▒░░░░░░░░▒                   ')
+         print('               ▒░░░░░▒▒░▒▒▓                  ')
+         print('              ████▒███▓▓▒▒▓                  ')
+         print('             █▓▒▒█░▓██▓▓▓▓▓                  ')
+         print('             ███▒▓░▒▓▓▓▓░▒▓                  ')
+         print('             ▒▒▒▒▓░▒▒▒▒▒▒▓█                  ')
+         print('             ▒▓█████▓▓█████                  ')
+         print('              ▒████▓▓▓▓████                  ')
+         print('               ░▓██▓▓▒▓▓███                  ')
+         print('               ░███▓▓▓▓▓▓▓█                  ')
+         print('               ▒███▓▓▓▓▓▓▒▓                  ')
+         print('               ▓▓█▓▓▓▓▓▓█▒▓                  ')
+         print('               █▒█▓▓▓▓▓▓█▓▓                  ')
+         print('               █▓█▓▓▓▓▓▓█▒▓                  ')
+         print('               ▓▓█▓▓▓▓▓▓█▒▓                  ')
+         print('              ▓▒▓██▓▓▓▓▓▒▓▓                  ')
+         print('              ██▓██▓▓▓▓▓▓▓                   ')
+         print('              ▒▒████▓▓███                    ')
+         print('             ▒▒▓ ███ █▓██                    ')
+         print('            ▒▒▓█ ▓▓█ ▓▓▓█                    ')
+         print('           ▒▒▓█  ▓▓█ ▓▓▓█                    ')
+         print('          ▒▒▓    ███  █▓▓                    ')
+         print('         ▒▒▓█     ██  █▓▓                    ')
+         print('       ▒▒▒▓█      ██  ███                    ')
+         print('      ▓▓▓██       ██  ███                    ')
+         print('    ▓▓▓▓██       ░▒▓█ ▓▓▓                    ')
+         print('   ▓▓▓▓██   ░░░░░▒▓▓█▒░▒▓▓                   ')
+         print('   █████  ▓▓▒▒▒▒▓███▒░▒▒▒▒                   ')
+         print('            ████   ▓▓▓▓▓▓▓                   ')
          exit();
    else:
          print('Please enter 1, 2 or 3!');
