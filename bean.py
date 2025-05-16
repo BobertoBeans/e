@@ -1,4 +1,4 @@
-from func import *
+from funktions import *
 
 print("          ╔═══════════════════════════╗")
 print("          ║      The Beancipherer     ║")
