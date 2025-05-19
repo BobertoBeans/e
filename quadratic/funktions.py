@@ -12,7 +12,7 @@ def quadratic(a,b,c):
     print('Parabola width:Widens');
   elif(abs(a)==1):
     print('Parabola width:Standard');
-  x=(-1*(b**2))/(2*(a));
+  x=(-1*(b))/(2*(a));
   print('Axis of symmetry:x='+str(x))
   v=(a*(x**2))+(b*x)+c;
   print('Vertex:('+str(x)+','+str(v)+')');
