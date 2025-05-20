@@ -1,9 +1,9 @@
 def bean():
   print('Please enter the word you want to beancipher!');
   word=input('');
-   
+
   word=word.lower();
-   
+
   wordlist=list(word);
 
   wordlist=list(word);
@@ -14,7 +14,7 @@ def bean():
   x=0;
   y=0;
 
-  while(n<len(word)):
+  for n in range(len(word)):
       bool=False;
       while(bool==False):
          bool=word[x]==alph[y];
@@ -29,20 +29,20 @@ def bean():
   menu();
 
 def debean():
-    print("Please enter the word you want to debeancipher('Z's don't work)!")
+    print("Please enter the word you want to debeancipher!")
     word=input('');
-   
+
     word=word.lower();
 
     wordlist=list(word);
 
-    alph='                 abcdefghijklmnopqrstuvwxyz';
+    alph='abcdefghijklmnopqrstuvwxyabcdefghijklmnopqrstuvwxyz';
 
     n=0;
     x=0;
     y=0;
 
-    while(n<len(word)):
+    for n in range(len(word)):
       bool=False;
       while(bool==False):
          bool=word[x]==alph[y];
